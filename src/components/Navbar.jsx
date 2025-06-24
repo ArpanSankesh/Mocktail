@@ -1,10 +1,30 @@
+import gsap from "gsap"
 import { navLinks } from "../../constants"
+import { useGSAP } from "@gsap/react"
 
 const Navbar = () => {
+
+    useGSAP(() => {
+        const navTween = gsap.timeline({
+            scrollTrigger : {
+                trigger : 'nav',
+                start : "bottom top"
+            },
+
+        })
+        navTween.fromTo('nav', {backgroundColor : 'transparent'}, {
+            backgroundColor: '#00000050',
+            bcakgroundFliter: 'blur(10ox)', 
+            duration : 1,
+            ease: 'power1.inOut'
+        })
+
+    } ,[])
   return (
     <nav>
         <div>
-            <a href="#home">
+            <a className="flex items-center gap-2" href="#home">
+                <img src="images\logo.png" alt="" />
                 <p>MOCK</p>
             </a>
             <ul>
