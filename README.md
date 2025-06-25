@@ -1,12 +1,60 @@
-# React + Vite
+# 🍹 Mocktail — A Refreshing Digital Bar Experience
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to **Mocktail**, a sleek, animated website built to showcase handcrafted mocktail recipes with an elegant, modern, and motion-driven design. Inspired by premium web experiences and Awwwards-style aesthetics, this project is built with **React**, **GSAP**, and **Tailwind CSS**.
 
-Currently, two official plugins are available:
+![Mocktail Hero Screenshot](![alt text](image.png))
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## 🌟 Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- 🎥 Smooth scroll-driven **GSAP animations**
+- 💻 Responsive layout (Mobile-first design)
+- 🎬 Scroll-triggered **video pinning** and animation
+- 🧠 SplitText title animation for engaging intro
+- 🖼️ Styled with **Tailwind CSS 4**
+- ⚡ Built with **Vite** for ultra-fast performance
+
+---
+
+## 📸 Preview
+
+> [🔗 Live Demo](https://mocktail-ten.vercel.app/)
+
+---
+
+## 🛠️ Tech Stack
+
+| Tool              | Purpose                        |
+|-------------------|--------------------------------|
+| **React**         | UI Library                     |
+| **Tailwind CSS**  | Styling Framework              |
+| **GSAP + ScrollTrigger** | Animations & Interactions   |
+| **Vite**          | Frontend Build Tool            |
+| **@gsap/react**   | GSAP integration with React    |
+| **react-responsive** | Mobile responsiveness       |
+
+---
+
+## 📂 Folder Structure
+
+```bash
+├── public/
+│   ├── images/
+│   └── videos/
+├── src/
+│   ├── components/
+│   │   ├── About.jsx
+│   │   ├── Art.jsx
+│   │   ├── Hero.jsx
+│   │   ├── Footer.jsx
+│   │   ├── Navbar.jsx
+│   │   ├── Menu.jsx
+│   │   └── Cocktails.jsx
+│   ├── constants/
+│   │   └── index.js
+│   ├── App.jsx
+│   └── main.jsx
+├── tailwind.config.js
+├── vite.config.js
+└── package.json
