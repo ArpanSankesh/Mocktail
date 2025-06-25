@@ -6,7 +6,7 @@ import { useMediaQuery } from "react-responsive";
 
 const Hero = () => {
     const videoRef = useRef();
-    const isMobile = useMediaQuery({ maxWidth: 767 })
+    const isMobile = useMediaQuery({ maxWidth: '767' })
 
     useGSAP(() => {
         const heroSplit = new SplitText('.title', { type: 'chars, words' });
@@ -15,7 +15,7 @@ const Hero = () => {
         heroSplit.chars.forEach((char) => char.classList.add('text-gradient'));
 
         gsap.from(heroSplit.chars, {
-            yPercent: 100,
+            yPercent: 120,
             duration: 0.8,
             ease: 'expo-out',
             stagger: 0.05
