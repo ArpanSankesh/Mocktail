@@ -2,7 +2,7 @@
 
 Welcome to **Mocktail**, a sleek, animated website built to showcase handcrafted mocktail recipes with an elegant, modern, and motion-driven design. Inspired by premium web experiences and Awwwards-style aesthetics, this project is built with **React**, **GSAP**, and **Tailwind CSS**.
 
-![Mocktail Hero Screenshot](![alt text](image.png))
+(image.png)
 
 ---
 
